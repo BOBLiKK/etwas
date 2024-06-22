@@ -109,7 +109,7 @@ END; $$
 LANGUAGE plpgsql;
 
 
---if Klingon languale has not yet added
+--if Klingon language has not yet added
 INSERT INTO language (name, last_update)
 VALUES ('Klingon', NOW());
 SELECT new_movie('Klingon Movie');
